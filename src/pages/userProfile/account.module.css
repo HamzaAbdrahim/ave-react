@@ -1,0 +1,18 @@
+.userBackground{
+height: 430px;
+background: #d9d9d9;
+border-radius: 20px 20px 0px 0px;
+overflow: hidden;
+}
+.profileUser  {
+    padding: .3rem;
+    border-radius: 50%;
+    background-color: white;
+    overflow: hidden;
+    margin-top: calc(-228px / 2);
+}
+.profile__user  img {
+    height: 228px;
+    
+
+}

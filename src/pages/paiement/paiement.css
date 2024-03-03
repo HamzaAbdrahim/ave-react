@@ -1,0 +1,57 @@
+.paymentWay-box {
+    padding: 1rem 2rem;
+background-color: white;
+border-radius: 5px;
+width: 8rem;
+    height: 6rem;
+    display: grid;
+    place-items: center;
+    transition: .5s ;
+    &:hover {
+        transform: scale(1.5);
+    }
+}
+
+.green-sient  {
+    top: -0.5rem;
+    right: -0.5rem;
+    height: 23px;
+    aspect-ratio: 1;
+}
+
+.circal-white {
+    position: absolute;
+    width: 60px;
+    aspect-ratio: 1;
+    background-color: #f4f4f4;
+    border-radius:50%;
+    top: 50%;
+    transform: translateY(-50%);
+    
+  }
+  
+  .pos-left {
+    left: -30px;
+  }
+  .pos-right {
+  right: -30px;
+  }
+  .master_card__img {
+    margin-bottom: -8rem;
+    position: relative;
+    z-index: 1;
+  }
+  .masterCard-box  {
+    background-color: rgb(227, 233, 238);
+    max-width: 371px;
+  }
+  
+  @media (min-width:992px) {
+    .masterCard-box {
+      height: 500px;
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+    }
+  }
+  

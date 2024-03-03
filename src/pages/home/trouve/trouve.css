@@ -1,0 +1,104 @@
+/* start request section  */
+.Trouve-titel {
+    font-size:clamp(20px ,4vw ,45px );
+    font-weight: 800;
+    line-height:clamp(25px ,4vw ,55px );
+    color: var(--clr-blue-gray);
+        span {
+            color: var(--clr-green-light);
+        }
+    }
+    .user-name {
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 12px;   
+        margin-bottom: 5px;     
+    }
+    .Trouve-big-cart {
+        box-shadow: 0px 0px 33.5px 0px #0000002B;
+        border-radius: 20px;
+        width:min(90% ,375px );
+        min-height: 385px;
+        display: grid;    
+        .user-img {
+            width: clamp( 20px ,4vw , 40px);
+            aspect-ratio: 1;
+            border-radius: 20px;
+            
+        }
+        .request-img {
+            width: 100%;
+            min-height: 197px;        
+        }
+        .request-discrption {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12px;
+        }
+        .request-pupliched {
+            font-size: 10px;
+            font-weight: 800;
+            line-height: 12px;
+            color: var(--clr-gray-300);        
+        }
+    }
+    
+    .reviews-card {
+        box-shadow: 0px 0px 33.5px 0px #0000001A;
+        padding: clamp(10px ,4vw , 20px) clamp(15px ,4vw , 30px) ;
+        background-color: white;
+        width:min(375px , 90%) ;
+    min-height: 162px;
+    border-radius: 20px;
+    display: grid;
+    margin-inline: auto;
+    &.active {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+        .revwie-button {
+            border: 0.5px solid #5C85FF;
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+    color: var(--clr-main-blue);
+    font-size:clamp(8px ,4vw , .8rem);
+    font-weight: 400;
+    line-height: 10px;
+    margin-left: 10px;
+    padding-inline: 6px;
+    padding-block: 4px;
+        }
+        .user-rate {
+            font-size: 10px;
+            font-weight: 400;
+            line-height: 12px;  
+            color: var(--clr-gray-300);        
+        }
+        .review-discrption {
+            font-size: 10px;
+            font-weight: 500;
+            line-height: 12px;        
+        }
+        .readmore-button {
+            font-size:clamp(8px ,  5vw, 13px);
+            font-weight: 300;
+            line-height: 10px;
+            color: var(--clr-gray-300);        
+            text-decoration: underline;
+        }
+        .review-publiched {
+    font-size: 10px;
+    font-weight: 800;
+    line-height: 12px;
+    color: var(--clr-gray-300);        
+        }
+    
+    }
+
+    @media (min-width:768px) {
+        .reviews-card {
+      &.active {
+              margin-left: -72px;
+      }
+      }
+      }

@@ -1,0 +1,162 @@
+
+.msg-titel {
+font-size:22px;
+font-weight: 700;
+line-height: 27px;
+}
+/* Search Input Styles */
+  .msg-searchInput {
+    background-color: #EBEBEB;
+height: 54px;
+border-radius: 6px;
+font-size: 12px;
+font-weight: 500;
+line-height: 15px;
+color: #AFB7CF;
+border: none;
+padding-left: 1rem;
+width: 100%;
+  }
+  .msg-searchInput + i {
+    position: absolute;
+    right: 1rem;
+    font-size: 1.3rem;
+  }
+  
+  /* User Section Styles */
+  .msg-user {
+   margin-bottom: 1rem;
+   padding-bottom: 1rem;
+   border-bottom: 1.5px solid #E4E4E4;
+   &.active {
+    background-color: white;
+    border: none;
+}
+  }
+  
+  .masg_user_img {
+    width: 40px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+  }
+  .online-dot {
+    width: 13px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: #97E287;
+    border: 1px solid white;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .masg-user-name {
+font-size: 18px;
+font-weight: 700;
+line-height: 22px;
+  }
+  
+  .data-left {
+font-size: 12px;
+font-weight: 500;
+line-height: 15px;
+color: #AFB7CF;
+margin-top: 3px;
+  }  
+
+  .verySmall_img {
+    height: 46px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+  }
+  
+  .msg-box {
+    background-color: white;
+    max-width: 430px;
+    padding: 1rem;
+    border-radius: 1rem;
+    .msg {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1rem;
+    }
+    .dataSand__msg {
+        color: #AFB7CF;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    margin-top: 5px;
+    }
+  }
+  .sand_msg-box {
+    max-width: 430px;
+border-radius: 1rem;
+background-color: #5C85FF;
+color: white;
+padding: 1rem;
+.msg {
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+margin-bottom: 1rem;
+}
+.timeMsg__sand,
+.dataSand__msg
+{
+font-size: 12px;
+font-weight: 500;
+line-height: 15px;
+}
+}
+  
+
+.sand__input__conatiner {
+  width: 100%;
+height: 60px;
+border-radius: 8px;
+padding: 1rem;
+background-color: white;
+margin-inline: auto;
+    .sand__input {
+        border: none;
+        outline: none;
+font-size: 12px;
+font-weight: 500;
+line-height: 15px;
+color: #AFB7CF;
+height: 40px;
+    }
+    .add__container {
+        display: grid;
+        place-items: center;
+        width: 37px;
+        aspect-ratio: 1;
+border-radius: 3px;
+background-color: #ECEFFE;
+img {
+    height: 14px;
+    aspect-ratio: 1;
+}
+    }
+
+    .sand__img {
+        width: 26px;
+        aspect-ratio: 1;
+
+    }
+}
+
+/* comeen styles for this componant */
+  
+@media (min-width:768px) {
+  .border-left-right {
+    border-inline: 2px solid #E4E4E4;
+}
+.sand__input__conatiner {
+  width: 90%;
+}
+}
+
+.chat__container {
+  height: 80vh;
+  overflow-y: scroll;
+}

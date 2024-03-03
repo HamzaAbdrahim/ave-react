@@ -1,0 +1,49 @@
+header {
+    --header-height:clamp(10vh , 5vw ,20vh );
+    height: var(--header-height);
+    nav {
+        gap:clamp(60px ,5vw  , 80px)
+    }
+    .outline-button {
+        width: 170px;
+        height: 40px;
+        border-radius: 28.5px;
+        border: 1px solid #30447F;
+        display: grid;
+        place-items: center;
+transition: .5s;
+&:hover {
+    background-color:#30447F;
+    color: white;
+}
+    }
+    .website-logo {
+        max-width: clamp(50px, 5vw, 80px);
+    }
+}
+
+.mobil-menu i {
+font-size:clamp(3rem , 4vw,5rem );
+color: var(--clr-blue-gray);
+}
+
+@media (max-width:992px)  {
+  .navlinsk {
+    --content-width: 65%;
+    position: fixed;
+    top: 0;
+    left:-65%;
+    background-color: white;
+    padding: 1rem;
+    flex-direction: column;
+    height: 100svh;
+    width:var(--content-width);
+    justify-content: center;
+    transition: .5s;
+    z-index: 10;
+    &.active {
+    left:0 ;
+    }
+  }
+  }
+

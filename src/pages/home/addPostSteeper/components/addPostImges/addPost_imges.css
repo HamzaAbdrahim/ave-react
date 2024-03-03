@@ -1,0 +1,15 @@
+.upload__container {
+    border: 5px dashed var(--clr-green-light);
+border-radius: 24px;
+padding: 10px 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 1rem;
+height: 10rem;
+cursor: pointer;
+}
+.upload__container > img {
+    height: 2rem;
+}

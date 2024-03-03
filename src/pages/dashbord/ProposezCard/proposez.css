@@ -1,0 +1,30 @@
+.Proposez-card {
+    background-color: white;
+min-height: 234px;
+display: grid;
+border-radius: 15px;
+padding: 1rem;
+text-align: center;
+.Proposez-titel {
+font-size: 18px;
+font-weight: 700;
+line-height: 22px;
+}
+.Proposez-discrption {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;    
+}
+}
+.green-button {
+    border: 1px solid #96E286;
+    color: white;
+    background-color: #96E286;
+    width:min( 236px , 90% );
+    padding-block: 8px;
+border-radius: 30px;
+font-size: 1rem;
+font-weight: 600;
+line-height: 20px;
+margin-inline: auto;
+}

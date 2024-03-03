@@ -1,0 +1,28 @@
+.otp-input-container {
+    display: flex;
+    align-items: center;
+    gap:clamp(5px ,3vw ,.7rem );
+  }
+  
+  .otp-input {
+    text-align: center;
+border-radius: 10px;
+border: 3px solid var(--clr-green-light);
+font-size: 2rem;
+&:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color:var(--clr-green-light);
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(70, 239, 121, 0.25);
+}
+
+  }
+  
+  .Popupvladtion__discrption,
+  .timer-discrption {
+    color: var(--clr-gray-300);
+    font-size:clamp(10px ,4vw ,20px );
+    font-weight: 700;
+    line-height: 24px;
+  }  

@@ -1,0 +1,32 @@
+footer {
+    background-color: #FAFAFA;
+    box-shadow: 0px -10px 26.899999618530273px 0px #00000014;
+    .footer-img {
+        width:clamp(150px ,4vw ,220px );
+    }
+    .footer-title {
+        font-size:clamp(10px ,4vw , 1rem);
+        font-weight: 800;
+        line-height: 24px;   
+      }
+    .footer-link {
+       font-size:clamp(7px ,4vw , 13px);
+       font-weight: 500;
+       line-height: 18px;
+       color: #AFB7CF;    
+    }
+    
+    .footer-app-store-icon {
+       img {
+           width: 50% ;
+           margin-inline: auto;
+           margin-bottom: 5px;
+       }
+    }
+    .footer-playstore-icon {
+       img {
+           width: 50% ;
+           margin-inline: auto;
+       }
+    }
+}

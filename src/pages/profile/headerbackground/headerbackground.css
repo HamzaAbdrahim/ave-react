@@ -1,0 +1,64 @@
+.header__background {
+min-height:30vh;
+background: linear-gradient(90.56deg, #99C3E7 3.1%, rgba(150, 226, 134, 0.32) 99.73%);
+overflow: hidden;
+    .titel__img {
+        position: absolute;
+        bottom: 1rem;
+        left: -1rem;
+        width:clamp(250px ,5vw ,500px );
+height:clamp(150px ,4vw ,250px );
+    }
+}  
+.bigest__logo {
+    transform: rotate(23.57deg); 
+    width:clamp(170px ,6vw ,220px );
+    aspect-ratio: 1;
+    right: -2rem;
+    top: -1rem;
+    position: absolute;
+}
+
+.small__logo__1 {
+    position: absolute;
+    top: 2rem;
+    right: 11rem;
+    height: 40px;
+    aspect-ratio: 1;
+    transform: rotate(-50.87deg);
+    width: 40px
+}
+.small__logo__2 {
+    position: absolute;
+    top: 5rem;
+    right: 15rem;
+    height: 40px;
+    aspect-ratio: 1;
+    transform: rotate(32.65deg);
+    width: 40px;
+}
+.small__logo__3 {
+    position: absolute;
+    top: 8rem;
+    right: 11rem;
+    width: 26.73px;
+height: 29.06px;
+    transform: rotate(-46.68deg);
+}
+
+@media (max-width:768px) {
+    .titel__img {
+    width: 11rem !important;
+    height: 6rem !important;
+    bottom: 1.5rem !important;
+}
+.bigest__logo {
+    width: 6rem;
+}
+    .small__logo__1 {
+        right: 7rem;
+    }
+    .small__logo__2 {
+        right: 2rem;
+    }
+}

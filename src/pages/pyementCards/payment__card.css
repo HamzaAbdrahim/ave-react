@@ -1,0 +1,27 @@
+.masterCard {
+    max-width: 387px;
+    height: 224px;
+border-radius: 15px;
+
+}
+.DeatilesCard {
+    max-width: 800px;
+    border-radius: 25px;
+    background-color: #F0F5F9;
+    padding:clamp(1rem ,4vw ,2rem );
+    box-shadow: -10px 0px 22.399999618530273px 0px #0000000D;   
+}
+
+@media (min-width:992px) {
+    .DeatilesCard {
+        margin-left: auto;
+    }
+}
+
+@media (max-width:992px) {
+    .mobile-flex-col {
+    display: grid;
+    gap: 2rem;
+    place-items: center;
+    }
+}

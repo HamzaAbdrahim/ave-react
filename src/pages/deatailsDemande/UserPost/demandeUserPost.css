@@ -1,0 +1,45 @@
+.DemandeUserPost {
+    padding: 1rem;
+    background-color: white;
+    border-radius: 15px;
+    
+    .Demande-deatiles {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 12px;
+        color: var(--clr-gray-300);        
+    }
+    
+    /* Style for the next button */
+    .next-button {
+      width: 30px;
+      aspect-ratio: 1;
+      background-color: #FFFFFF80; 
+      display: grid;
+      place-items: center;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 1.5rem;   
+      border-radius: 50%;
+      img {
+        height: 10px;
+      }  
+    }
+    
+    /* Style for the dots */
+    .dot {
+    border-radius: 50%;
+    width: 10px;
+    aspect-ratio: 1;
+    background-color: #AFB7CF;
+    &.active {
+      background-color: #30447F;
+    }
+    }
+
+    .user__loction {
+      
+    }
+  }
+  

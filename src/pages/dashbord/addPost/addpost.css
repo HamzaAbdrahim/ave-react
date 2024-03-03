@@ -1,0 +1,31 @@
+.main-page {
+    background-color: #f4f4f4;
+    min-height:calc(100vh - var(--header-height));
+    .user-input-post {
+min-height: 106px;
+border-radius: 15px;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: white;
+gap: 20px;
+padding-left: clamp(30px , 4vw, 50px);
+.user-post-img {
+    width: 60px;
+    aspect-ratio: 1;
+}
+        .post-input {
+            border: none;
+            outline: none;
+            background-color: transparent;
+            flex: 1;
+font-size:clamp(10px ,4vw ,18px );
+font-weight: 500;
+line-height: 20px;
+color: var(--clr-gray-300);
+&::placeholder {
+color: var(--clr-gray-300);
+}
+        }
+    } 
+}

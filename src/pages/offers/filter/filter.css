@@ -1,0 +1,29 @@
+.Filter__box {
+    width: 100%;
+    min-height: 53px;
+    display: grid;
+    align-items: center;
+    box-shadow: 0px 0px 10px 0px #0000001A;
+    border-radius: 10px;
+    .dropdown-button {
+font-size: 14px;
+font-weight: 600;
+line-height: 17px;
+color: var(--clr-blue-gray);
+    }
+    .gray__link {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 17px;
+        color: var(--clr-gray-300);
+    }
+    .small_green_button {
+min-height: 36px;
+border-radius: 10px;
+font-size: 14px;
+font-weight: 600;
+line-height: 17px;
+background-color: var(--clr-green-light);
+color: white;
+    }
+}

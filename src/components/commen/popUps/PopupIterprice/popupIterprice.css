@@ -1,0 +1,30 @@
+.subtitel-popup {
+    font-style: normal;
+    font-weight: 500;
+    font-size: clamp(10px ,4vw , 1.3rem);
+    line-height: 29px; 
+    color: #aeb6cf;
+    text-align: center;
+    }
+    
+    .interpricePopup {
+      max-width: min(1200px , 90%);
+      height: 80vh;
+          z-index: 15;
+          position: fixed;
+          left: 50%;
+          top: 50%;
+          transition: .5s;
+          transform: translate(-50% , -50%);
+          border-radius: 20px;
+          .box-img {
+            width:clamp(70px , 4vw,100px);
+            aspect-ratio: 1;
+          }
+          .section-titel {
+            font-size:clamp(20px,4vw ,40px);
+            font-weight: 800;
+            line-height: 61px;
+            color: #30447F;    
+          }
+        }
